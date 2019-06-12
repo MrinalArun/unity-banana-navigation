@@ -25,6 +25,6 @@ Parameters used in DQN algorithm:
 
 Steps/episode: 1000 ; decay rate: 0.999 ; eps_start: 1.0 ; eps_end: 0.01
 
-## Results
+
 
 
