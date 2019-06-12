@@ -13,24 +13,17 @@ Install dependencies and run Navigation.ipynb file from terminal. deep_agent scr
 
 Deep neural network architecture:
 
-First layer - input: input_dim, output: 256
-Second layer - input: 256, output 128
-Final layer - input: 128, output: output_dim
+First layer - input: input_dim, output: 256 ; Second layer - input: 256, output 128 ; Final layer - input: 128
 
 Model Parameters:
 
-Learning Rate = 0.0001
-Replay Buffer Size = 100000
-Batch size = 32         
-Tau = 0.001              
+Learning Rate = 0.0001 ; Replay Buffer Size = 100000 ; Batch size = 32 
+Tau = 0.001 
 Update Frequency = 5    
 
 Parameters used in DQN algorithm:
 
-Steps/episode: 1000
-decay rate: 0.999
-eps_start: 1.0
-eps_end: 0.01
+Steps/episode: 1000 ; decay rate: 0.999 ; eps_start: 1.0 ; eps_end: 0.01
 
 ## Results
 
