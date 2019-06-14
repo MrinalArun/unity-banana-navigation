@@ -3,11 +3,15 @@
 
 ## Objective
 
-The goal to train an agent to collect yellow bananas and avoid blue bananas. Input dimension is 37 and there are 4 discrete actions. The learning is said to be complete when an average score of 13 is obtained.
+The goal to train an agent to collect yellow bananas (score of +1 ) and avoid blue bananas (score of -1). Input dimension is 37 (contains the agent's velocity, along with ray-based perception of objects around agent's forward direction) and there are 4 discrete actions corresponding to the directions. The learning is complete when an average score of 13 is obtained.
 
 ## Instructions
 
-Install dependencies and run Navigation.ipynb file from terminal. deep_agent script contains agent code and model.py contains the neural network.
+1) Install Python 3.6 and other dependencies as defined in https://github.com/udacity/deep-reinforcement-learning#dependencies
+  
+2) Download the Unity environment for the relevant OS place the file in the p1_navigation folder and unzip it
+
+3) Run Navigation.ipynb file from terminal. Imported scripts include deep_agent.py which contains the agent code and model.py which contains the neural network.
 
 ## Architecture
 
